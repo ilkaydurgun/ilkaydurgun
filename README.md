@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi I'm Ilkay! I'm Computer Engineering Student<br>I am currently specializing  game development and backend development.<br>Also sometimes working at Android app project and 
+Hi I'm Ilkay! I'm Computer Engineering Student<br>I am currently specializing  game development and backend development.<br>Also sometimes working at Android app project.
 
 
 ## 🌐 Socials:
