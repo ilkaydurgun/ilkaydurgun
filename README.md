@@ -2,18 +2,6 @@
 
 ###
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ilkaydurgun&theme=tokyonight&hide_border=false" alt="Streak Stats" height="170" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilkaydurgun&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Languages Graph" height="170" />
-      </td>
-    </tr>
-  </table>
-</div>
 
 ###
 
@@ -54,6 +42,18 @@
 <br clear="both">
 
 ###
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ilkaydurgun&theme=tokyonight&hide_border=false" alt="Streak Stats" height="170" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilkaydurgun&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Languages Graph" height="170" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph-dark.svg">
