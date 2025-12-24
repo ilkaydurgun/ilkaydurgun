@@ -6,9 +6,6 @@
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=ilkaydurgun&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="Stats Graph" height="170" />
-      </td>
-      <td>
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=ilkaydurgun&theme=tokyonight&hide_border=false" alt="Streak Stats" height="170" />
       </td>
       <td>
