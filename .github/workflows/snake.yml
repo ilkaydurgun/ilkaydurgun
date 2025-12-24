@@ -1,14 +1,9 @@
 name: generate animation
 
 on:
-  # Her 24 saatte bir otomatik çalışır
   schedule:
     - cron: "0 */24 * * *" 
-  
-  # Manuel olarak başlatmaya izin verir (Actions sekmesinden)
   workflow_dispatch:
-  
-  # Main branch'ine her kod yüklediğinde (push) çalışır
   push:
     branches:
     - main
@@ -21,16 +16,16 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # Pacman Labirenti Animasyonunu Oluşturur
+      # Senin README kodundaki dosya isimlerine göre (pacman-contribution-graph) üretim yapar
       - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/pacman-maze.svg?color_snake=#f1c40f&color_dots=#bfbdbe,#f1c40f,#e74c3c,#3498db,#2ecc71&snake_type=pacman&hide_dots=false&grid_main_color=#161b22&grid_boundary_color=#30363d
-            dist/pacman-maze-dark.svg?color_snake=#f1c40f&color_dots=#3b3b3b,#f1c40f,#e74c3c,#3498db,#2ecc71&palette=github-dark&snake_type=pacman
+            dist/pacman-contribution-graph.svg?color_snake=#f1c40f&color_dots=#bfbdbe,#f1c40f,#e74c3c,#3498db,#2ecc71&snake_type=pacman&hide_dots=false&grid_main_color=#161b22&grid_boundary_color=#30363d
+            dist/pacman-contribution-graph-dark.svg?color_snake=#f1c40f&color_dots=#3b3b3b,#f1c40f,#e74c3c,#3498db,#2ecc71&palette=github-dark&snake_type=pacman
 
-      # Oluşturulan dosyaları 'output' branch'ine yükler
+      # Dosyaları README'nin okuduğu 'output' branch'ine yükler
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
