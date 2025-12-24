@@ -2,10 +2,9 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ilkaydurgun&show_icons=true&theme=dracula&hide_border=false" alt="İlkay's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilkaydurgun&layout=compact&theme=dracula&hide_border=false" alt="İlkay's Top Languages" />
-</div>
+![](https://github-readme-stats.vercel.app/api?username=ilkaydurgun&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ilkaydurgun&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ilkaydurgun&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ###
 
