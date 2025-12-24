@@ -42,6 +42,15 @@
 <br clear="both">
 
 ###
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph.svg">
+</picture>
+
+
 <div align="center">
   <table border="0">
     <tr>
@@ -54,9 +63,3 @@
     </tr>
   </table>
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ilkaydurgun/ilkaydurgun/output/pacman-contribution-graph.svg">
-</picture>
